@@ -1,0 +1,218 @@
+.fillcontain .table_container .idList .cell {
+	word-break: normal;
+}
+.el-menu--dark .el-submenu .el-menu .el-menu-item:hover,.el-menu--dark .el-submenu .el-menu .el-menu-item{
+	min-width: 150px;
+}
+.el-menu-item, .el-submenu__title{
+	font-size: 13px;
+}
+.cell .el-button+.el-button{
+	margin-left: 0;
+}
+.el-dialog .el-dialog__header {
+  background: #fff;
+}
+.router-link-active button{
+	color: #000;
+	background-color: #fff;
+	border-color: #fff;
+}
+.router-link-active .el-button--info:focus, .router-link-active .el-button--info:hover{
+color: #000;
+background-color: #fff;
+border-color: #fff;
+}
+.iconfont {
+	font-size: 14px !important;
+  margin-right:5px;
+}
+.iconfont:before {
+	/*font-weight:700;*/
+}
+.el-button.iconfont span {
+    margin-left: 5px;
+}
+.table_containers {
+  padding:0 20px;
+}
+.table_containers .tools {
+  background-color: #fff;
+  border: 1px solid #d3dce6;
+  padding-left: 10px;
+  margin:10px 0;
+}
+.table_containers .tools .el-button--text span {
+  color:#000;
+}
+.table_containers .list {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  background: #d3dce6;
+  min-height: 46px;
+  line-height: 46px;
+  padding-left: 20px;
+}
+
+/* 换肤 2*/
+ .silver .el-menu--dark .el-submenu__title {
+    color: #48576a;
+} 
+.silver .welcome[data-v-cae5cd9a]{
+  color:#48576a
+}
+.silver .el-menu--dark .el-menu-item:hover{
+  background-color: #d0d9e7;
+} 
+.silver .el-menu--dark .el-submenu__title:hover {
+    background-color: #d0d9e7;
+}
+.silver .el-menu--dark .el-submenu .el-menu .el-menu-item {
+    background-color:#eef1f7;
+    color:#48576a;
+  }
+.silver .el-menu--dark .el-submenu .el-menu .el-menu-item:hover{
+  background-color: #d1dbe5
+} 
+.silver .el-menu-item.is-active[data-v-cae5cd9a][data-v-cae5cd9a] {
+    color: #aeb4bb;
+}
+
+.silver .el-submenu .el-menu-item[data-v-cae5cd9a] {
+    color:#797e84;
+    background-color: #eef1f7;
+}
+/* 图标颜色 */
+.silver .iconfont{
+  color:#48576a;
+}
+.silver .el-menu--dark .el-menu-item, .el-menu--dark .el-submenu__title{
+  color:#48576a;
+}
+
+/* 换肤3 */
+ .darkBlue .el-menu--dark .el-submenu__title {
+    color: #dedede;
+} 
+.darkBlue .welcome[data-v-cae5cd9a]{
+  color:#dedede
+}
+.darkBlue .el-menu--dark .el-menu-item:hover{
+  background-color: #58B7FF;
+} 
+.darkBlue .el-menu--dark .el-submenu__title:hover {
+    background-color: #58B7FF;
+}
+.darkBlue .el-menu--dark .el-submenu .el-menu .el-menu-item {
+    background-color:#1D8CE0;
+    color:#dedede;
+  }
+.darkBlue .el-menu--dark .el-submenu .el-menu .el-menu-item:hover{
+  background-color: #58B7FF
+} 
+.darkBlue .el-menu-item.is-active[data-v-cae5cd9a][data-v-cae5cd9a] {
+    color: #fff;
+}
+.darkBlue .el-submenu .el-menu-item[data-v-cae5cd9a]{
+    color: #dedede;
+    background-color:#4b8de2;
+}
+.darkBlue .el-submenu .el-menu-item[data-v-cae5cd9a]:hover{
+   background-color: #58B7FF
+}
+.darkBlue .el-submenu__title:hover{
+    background-color: #58B7FF
+}
+
+.colorDefault .el-submenu__title:hover{
+  background-color: #4d5872
+}
+.colorDefault .el-submenu__title{
+  color:#fff;
+}
+.colorDefault el-tooltip{
+  background-color:red;
+}
+/* 图标颜色 */
+.darkBlue .iconfont{
+  color:#fff;
+}
+.darkBlue .el-menu--dark .el-menu-item, .el-menu--dark .el-submenu__title{
+  color:#fff;
+}
+/* 收缩后侧边栏变色 */
+.darkBlue .el-menu--collapse{
+  background-color:#1D8CE0
+}
+.silver .el-menu--collapse{
+  background-color:#eef1f6
+}
+
+.noIcon .el-icon-caret-right {
+  display: none !important;
+}
+.el-select-dropdown{
+  z-index:10010 !important;
+}
+.el-loading-mask{
+  z-index:10086 !important;
+}
+.font-color-default{
+  color: #409EFF;
+}
+.el-table th>.cell{
+  color: #1f2d3d;
+}
+.edui-default .edui-toolbar .edui-combox{
+  height: 22px;
+}
+.hotWordContent .table_containers .el-input__inner {
+  width: 400px;
+}
+.premConfigContent .formTable input {
+  text-align: left;
+}
+.premConfigContent .formTable .el-select .el-input {
+  width: 278px;
+}
+
+.section  .el-tab-pane table{
+  }
+  .section  .el-tab-pane.active  table{
+    animation:opacity .3s ;
+    -moz-animation:opacity .3s ; /* Firefox */
+    -webkit-animation:opacity .3s ; /* Safari and Chrome */
+    -o-animation:opacity .3s ; /* Opera */
+  }
+
+  /*动画*/
+@keyframes  marquee{
+   to {top:0;}
+   from {top:165px;}
+}
+  /*动画*/
+@keyframes  opacity{
+   from {opacity:0;}
+   to {opacity:1;}
+}
+.homeContent .noticeList .el-table td,.homeContent .noticeList .el-table th{
+  padding:5px 0;
+  cursor:pointer;
+}
+
+/*富文本编辑器底部路径*/
+.edui-default .edui-editor-bottomContainer {
+    height:0;
+}
+.c_blue{
+  color:blue;
+}
+.float_r{
+  float: right;
+}
+
+  .inline-select.el-select .el-input{
+    width:80px;
+  }
