@@ -57,7 +57,6 @@
       <el-pagination @size-change="handleSizeChange" @current-change="handleCurrentChange" :current-page="initParam.pageNum" :page-sizes="[20, 30, 50, 100]" :page-size="initParam.pageSize" layout="total, sizes, prev, pager, next, jumper" :total="total">
       </el-pagination>
     </div>
-
     <el-row class='dt-tree-section tree' :gutter='20'>
       <el-col :span="10" class="dt-tree">
         <el-tree
@@ -221,8 +220,8 @@ export default {
         { id: "market.company", property: "labelName", force: false }
       ],
       groupId:'',
-      seletList:[],
       total:200
+      seletList:[]
     }
   },
   created() {
