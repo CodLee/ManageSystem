@@ -220,7 +220,7 @@ export default {
         { id: "market.company", property: "labelName", force: false }
       ],
       groupId:'',
-      total:200
+      total:200,
       seletList:[]
     }
   },
