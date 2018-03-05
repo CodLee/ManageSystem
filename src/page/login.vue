@@ -89,9 +89,9 @@ export default {
           sessionStorage.setItem("authSet", JSON.stringify(res.authSet))
           sessionStorage.setItem("groups", JSON.stringify(res.groups))
           // getAuthSet()
-          this.$router.push("/index")
 
         }
+          this.$router.push("/index")
     },
     focusUser() {
       this.showUser = true
